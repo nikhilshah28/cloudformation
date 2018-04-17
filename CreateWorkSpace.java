@@ -5,12 +5,12 @@
 		"WSBundleId": {
 			"Description": "Please enter the Workspace Bundle ID",
 			"Type": "String",
-			"Default": "wsb-gsd1f8p7x"
+			"Default": "wsb-xxxxxx"
 		},
 		"WSDirectoryId": {
 			"Description": "Please enter the Directory ID",
 			"Type": "String",
-			"Default": "d-90672dad64"
+			"Default": "d-xxxxxxxx"
 		},
 		"WSUserName": {
 			"Description": "Please enter Active Directory UserAccount which already exists",

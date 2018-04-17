@@ -27,12 +27,12 @@
 		"PrivateSubnet1": {
 			"Description": "Please enter the private subnet 1",
 			"Type": "String",
-			"Default": "subnet-97cf8fca"
+			"Default": "subnet-xxxxxx"
 		},
 		"PrivateSubnet2": {
 			"Description": "Please enter the private subnet 2",
 			"Type": "String",
-			"Default": "subnet-20bcf00f"
+			"Default": "subnet-xxxxxxx"
 		}
 	},
 
@@ -41,7 +41,7 @@
 		"vdiDirectoryService": {
 			"Type": "AWS::DirectoryService::SimpleAD",
 			"Properties": {
-				"Description": "DriveWealth VDI",
+				"Description": "Create VDI",
 				"Name": {
 					"Ref": "FQDN"
 				},
